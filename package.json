@@ -1,0 +1,21 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "defaultExpressSetup.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node render.js",
+    "dev": "nodemon render.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
